@@ -1,9 +1,11 @@
-baseURL = "https://example.com"
+baseURL = "https://shansrin.github.io/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Hugo Techdoc Theme"
 theme = "hugo-theme-techdoc"
+
+publishDir = "./docs"
 
 hasCJKLanguage = true
 metaDataFormat = "yaml"
