@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Installation - Hugo Techdoc Theme</title>
+<meta name="description" content="put your description">
+<meta name="generator" content="Hugo 0.56.0" />
+<link href="https://example.comindex.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://example.com/chapter1/installation/">
+<link rel="stylesheet" href="https://example.com/css/theme.min.css">
+<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="https://example.com/css/chroma.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+<script src="https://example.com/js/bundle.js"></script></head>
+<body><div class="container"><header>
+<h1>Hugo Techdoc Theme</h1>
+
+ <span class="version">Version 0.3.0</span>
+<a href="https://github.com/thingsym/hugo-theme-techdoc" class="github"><i class="fab fa-github"></i></a>
+<p class="description">put your description</p>
+
+</header>
+<div class="global-menu">
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="https://twitter.com/thingsym">Twitter</a></li>
+<li><a href="/about/">About AsciiDoc</a></li></ul>
+</nav>
+</div>
+<div class="content-container">
+<main><h1>Installation</h1>
+
+<h1 id="an-h1-header">An h1 header</h1>
+
+<p>Paragraphs are separated by a blank line.</p>
+
+<p>2nd paragraph. <em>Italic</em>, <strong>bold</strong>, and <code>monospace</code>. Itemized lists
+look like:</p>
+
+<ul>
+<li>this one</li>
+<li>that one</li>
+<li>the other one</li>
+</ul>
+
+<p>Note that &mdash; not considering the asterisk &mdash; the actual text
+content starts at 4-columns in.</p>
+
+<blockquote>
+<p>Block quotes are
+written like so.</p>
+
+<p>They can span multiple paragraphs,
+if you like.</p>
+</blockquote>
+
+<p>Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., &ldquo;it&rsquo;s all
+in chapters 12&ndash;14&rdquo;). Three dots &hellip; will be converted to an ellipsis.
+Unicode is supported. ☺</p>
+
+<h2 id="an-h2-header">An h2 header</h2>
+
+<p>Here&rsquo;s a numbered list:</p>
+
+<ol>
+<li>first item</li>
+<li>second item</li>
+<li>third item</li>
+</ol>
+
+<p>Note again how the actual text starts at 4 columns in (4 characters
+from the left side). Here&rsquo;s a code sample:</p>
+
+<pre><code># Let me re-iterate ...
+for i in 1 .. 10 { do-something(i) }
+</code></pre>
+
+<p>As you probably guessed, indented 4 spaces. By the way, instead of
+indenting the block, you can use delimited blocks, if you like:</p>
+
+<pre><code>define foobar() {
+    print &quot;Welcome to flavor country!&quot;;
+}
+</code></pre>
+
+<p>(which makes copying &amp; pasting easier). You can optionally mark the
+delimited block for Pandoc to syntax highlight it:</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">time</span>
+<span class="c1"># Quick, count to ten!</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+    <span class="c1"># (but not *too* quick)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span></code></pre></div>
+<h3 id="an-h3-header">An h3 header</h3>
+
+<p>Now a nested list:</p>
+
+<ol>
+<li><p>First, get these ingredients:</p>
+
+<ul>
+<li>carrots</li>
+<li>celery</li>
+<li>lentils</li>
+</ul></li>
+
+<li><p>Boil some water.</p></li>
+
+<li><p>Dump everything in the pot and follow
+this algorithm:</p>
+
+<pre><code>find wooden spoon
+uncover pot
+stir
+cover pot
+balance wooden spoon precariously on pot handle
+wait 10 minutes
+goto first step (or shut off burner when done)
+</code></pre>
+
+<p>Do not bump wooden spoon or it will fall.</p></li>
+</ol>
+
+<p>Notice again how text always lines up on 4-space indents (including
+that last line which continues item 3 above).</p>
+
+<p>Here&rsquo;s a link to <a href="http://foo.bar">a website</a>, to a <a href="local-doc.html">local
+doc</a>, and to a <a href="#an-h2-header">section heading in the current
+doc</a>. Here&rsquo;s a footnote <sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>.</p>
+
+<p>Tables can look like this:</p>
+
+<p>Name           Size  Material      Color</p>
+
+<hr />
+
+<p>All Business      9  leather       brown
+Roundabout       10  hemp canvas   natural
+Cinderella       11  glass         transparent</p>
+
+<p>Table: Shoes sizes, materials, and colors.</p>
+
+<p>(The above is the caption for the table.) Pandoc also supports
+multi-line tables:</p>
+
+<hr />
+
+<p>Keyword   Text</p>
+
+<hr />
+
+<p>red       Sunsets, apples, and
+          other red or reddish
+          things.</p>
+
+<p>green     Leaves, grass, frogs
+          and other things it&rsquo;s
+          not easy being.</p>
+
+<hr />
+
+<p>A horizontal rule follows.</p>
+
+<hr />
+
+<p>Here&rsquo;s a definition list:</p>
+
+<p>apples
+  : Good for making applesauce.</p>
+
+<p>oranges
+  : Citrus!</p>
+
+<p>tomatoes
+  : There&rsquo;s no &ldquo;e&rdquo; in tomatoe.</p>
+
+<p>Again, text is indented 4 spaces. (Put a blank line between each
+term and  its definition to spread things out more.)</p>
+
+<p>Here&rsquo;s a &ldquo;line block&rdquo; (note how whitespace is honored):</p>
+
+<p>| Line one
+|   Line too
+| Line tree</p>
+
+<p>and images can be specified like so:</p>
+
+<p><img src="example-image.jpg" alt="example image" title="An exemplary image" /></p>
+
+<p>Inline math equation: $\omega = d\phi / dt$. Display
+math should get its own line like so:</p>
+
+<p>$$I = \int \rho R^{2} dV$$</p>
+
+<p>And note that you can backslash-escape any punctuation characters
+which you wish to be displayed literally, ex.: `foo`, *bar*, etc.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">Some footnote text.
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
+<div class="edit-meta">
+Last updated on 17 Oct 2017
+
+
+<br>
+Published on 17 Oct 2017
+<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/content/chapter1%5cinstallation.md" class="edit-page"><i class="fas fa-pen-square"></i> Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="/chapter1/" title="Chapter 1 Installation"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - Chapter 1 Installation</a>
+<a class="nav nav-next" href="/chapter2/" title="Chapter 2 Configuration">Next - Chapter 2 Configuration <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main><div class="sidebar">
+<nav>
+<ul>
+<li class=""><a href="https://example.com">Home</a></li>
+
+<li class="parent"><a href="/chapter1/">Chapter 1 Installation</a>
+<ul class="sub-menu">
+<li class="active"><a href="/chapter1/installation/">Installation</a></li>
+</ul>
+  
+</li>
+
+<li class=""><a href="/chapter2/">Chapter 2 Configuration</a>
+<ul class="">
+<li class=""><a href="/chapter2/chapter2/">Generating HTML and PDF Document</a></li>
+<li class=""><a href="/chapter2/links/">Links</a></li>
+<li class=""><a href="/chapter2/faq/">FAQ</a></li>
+</ul>
+  
+</li>
+</ul>
+</nav>
+
+
+<div class="sidebar-footer"></div>
+</div>
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>

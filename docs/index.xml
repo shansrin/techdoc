@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Techdoc Theme</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Hugo Techdoc Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Generating HTML and PDF Document</title>
+      <link>https://example.com/chapter2/chapter2/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://example.com/chapter2/chapter2/</guid>
+      <description> Generating HTML and PDF document  Open the window terminal and type the command to install asciidoctor and pdf folder:
+gem install asciidoctor gem install asciidoctor-pdf --pre   Type the below command to generate html and pdf
+ascidoctor *.adoc .\[filename].html : asciidoctor -r asciidoctor-pdf -b pdf [name].adoc   </description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://example.com/chapter2/links/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://example.com/chapter2/links/</guid>
+      <description>Links TBD</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://example.com/chapter2/faq/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://example.com/chapter2/faq/</guid>
+      <description>This content is refreshed as new features and functions are introduced, or existing functions evolve. Check back often!
+ Introduction How to create a new Page on the Playbook? How to write a document in Markdown?  Introduction here is some Introduction text&amp;hellip;
+How to create a new Page on the Playbook? &amp;hellip; use the pageConfig.json and create a new Page document.
+How to create a new Page on the Playbook?</description>
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>https://example.com/chapter1/installation/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://example.com/chapter1/installation/</guid>
+      <description>An h1 header Paragraphs are separated by a blank line.
+2nd paragraph. Italic, bold, and monospace. Itemized lists look like:
+ this one that one the other one  Note that &amp;mdash; not considering the asterisk &amp;mdash; the actual text content starts at 4-columns in.
+ Block quotes are written like so.
+They can span multiple paragraphs, if you like.
+ Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex.</description>
+    </item>
+    
+    <item>
+      <title>About AsciiDoc</title>
+      <link>https://example.com/about/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/about/</guid>
+      <description>Asciidoctor
+It makes use of a variety of open source projects including:
+ Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
+    </item>
+    
+  </channel>
+</rss>

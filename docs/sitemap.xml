@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://example.com/chapter1/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/chapter2/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/chapter2/chapter2/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/chapter2/links/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/chapter2/faq/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2018-12-08T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/chapter1/installation/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
